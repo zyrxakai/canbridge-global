@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind customization */
+body {
+  @apply bg-white text-black;
+}
+
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* globals.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white; /* Set the background color to white */
+  color: black;            /* Set the default text color to black */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'MyCustomFont', sans-serif;
+}
+
+@font-face {
+  font-family: 'MyCustomFont'; /* Your custom font name */
+  src: url('/fonts/FontAwesome5Brands-Regular.woff') format('woff'); /* Path to the font file */
+  font-weight: normal; /* Set weight if applicable */
+  font-style: normal; /* Set style if applicable */
+}
+
+
+ 
+
+
+
+
